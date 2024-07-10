@@ -1,3 +1,15 @@
+:root {
+  --background-: white;
+}
+
+html.dark{
+  --background-: rgb(59, 59, 59);
+}
+
+body{
+  background-color: var(--background-);
+}
+
 .App {
   text-align: center;
 }
